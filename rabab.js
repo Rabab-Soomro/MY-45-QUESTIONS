@@ -1,7 +1,6 @@
-/* Q 13:Your own array:Think of your favourite mode of transpotation,such as motorcycle or a car,and make list that several examples.
-use your llst to print a  series of statements about these items such as"I would like to own a Honda Motorcycle."*/
-var transpotationMode = ["TOYOTA COROLLA", "LAND CRUISER PRADO", "SUV"];
-transpotationMode.forEach(function (Mode) {
-    return console.log("I would  like to buy ".concat(Mode));
+//Q 14:Guest List:if you could invite anyone,living or deceased,to dinner,who would you invite? Make a list that includes atleast three people you'd like to invite to dinner
+//then use your list to print a message to each person,inviting them to dinner.
+var GuestList = ["Apo Khala", "Ibly Mamoo", "Haider Mamoo"];
+GuestList.forEach(function (invitation) {
+    return console.log("Assalamulaikum ".concat(invitation, ", Ap log tu hamare ghar aate hi nhi hai.Par ab ap logo ko ana parega Qke baat hi itni khushi ki hai ...Darasal api ki baat pakki hogayi hai issy liye hum ne choti si  bhetak rakhi hai .\n              ta ke saare rriishty daar apni raaye bata saky ..Ap log bhhi aaye ga iss \"SUNDAY\" "));
 });
-console.log("But ".concat(transpotationMode[1], " is my dream Car"));
