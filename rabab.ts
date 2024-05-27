@@ -1,7 +1,12 @@
-//Q 14:Guest List:if you could invite anyone,living or deceased,to dinner,who would you invite? Make a list that includes atleast three people you'd like to invite to dinner
-//then use your list to print a message to each person,inviting them to dinner.
-let GuestList=["Apo Khala","Ibly Mamoo","Haider Mamoo"];
+//Q 15:Changing Guest list:Yoou just heared that one of your guest can't make dinner.so you need to send out a new set of invitation.You'll have to think anyone else to invite.
+
+let GuestList=["Apo khala","Ibly Mamoo","Haider Mamoo"]
+console.log(`${GuestList[1]} nahi aasaktey,Q ke wo Islamabad mein hai`)
+GuestList.splice(1,1,"Aliza Api")
+
 GuestList.forEach((invitation) =>
- console.log(`Assalamulaikum ${invitation}, Ap log tu hamare ghar aate hi nhi hai.Par ab ap logo ko ana parega Qke baat hi itni khushi ki hai ...Darasal api ki baat pakki hogayi hai issy liye hum ne choti si  bhetak rakhi hai .
-              ta ke saare rriishty daar apni raaye bata saky ..Ap log bhhi aaye ga iss "SUNDAY" `)
+ console.log(`Assalamulaikum,${invitation},"Ap logo ne hamare ghar se to jaise bycott hi kardiya hai 
+           hamare ghar aate hi nhi hai ..par iss SUNDAY toh ap logoo ko ana hi parega Qke baat hi intni khaas hai.
+           darasal api ki baat pakki ki khushi mein iss SUNDAY hum logo ne hammare ghar ek dawaat rakhi"
+              'kuch bhi hojae zaroor aaye ga' `)
             );
